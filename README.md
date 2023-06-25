@@ -295,3 +295,5 @@ void main() {
     - pressUndoButton will undo the last command from list of commandHistory using command class
       undo method.
     - if commandHistory list is empty then print no commands to undo.
+- So, command design pattern is used to decouple requests and receivers, and to implement undo/redo
+  operations.
